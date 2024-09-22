@@ -1,41 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my personal website</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-   <div id="header">
-    <div class="container">
-        <nav>
-            <img src="logo.jpg" class="logo">
-            <ul>
-                <li><a href="#"></a>home</li>
-                <li><a href="#"></a>about</li>
-                <li><a href="#"></a>porfollio</li>
-                <li><a href="#"></a>contacts</li>
-            </ul>
-        </nav>
-        <div class="header-text">
-            <p>web developer</p>
-            <h1>Hello, i'm <span>maxwell</span>  from kenya</h1>
 
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contacts">contacts</a></li>
+                </ul>
+
+            </nav>
+            <div class="header-text">
+                <p>web developer</p>
+                <h1>Hello, i'm <span>maxwell</span> from kenya</h1>
+
+            </div>
         </div>
     </div>
-   </div>
-   <div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="max.jpg" >
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">about max</h1>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="max.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">about me</h1>
+                    <p>
+                        my name is maxwell muriuki a software engineer from <br> Nairobi,kenya.I am dedicated to the
+                        quest of developing <br>solutions that leverage on best practice technologies <br>to deliver
+                        over the top user experience . Through my <br>skills i help turn your ideas to real life
+                        prodacts through <br> coding>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-   </div>
+    <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p>usamax089@gmail.com</p>
+                    <p>0790157517</p>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="namep" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message">
+                    </textarea>
+                    <button type="submit" class="btn">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
 </body>
+
 </html>
